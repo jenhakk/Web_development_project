@@ -1,4 +1,12 @@
 
-  
+/*Kun ruudun leveys 1300px ja suurempi*/
+@media screen and (min-width: 1300px){
+.container-fluid {
+    width: 75%;
+    margin:auto;
+}
+body {
+    background-color: whitesmoke;
+}
 
-  
+}
