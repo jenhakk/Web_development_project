@@ -1,18 +1,12 @@
-.content {
-    min-height: 500px;
-    flex-grow: 2;
+
+/*Kun ruudun leveys 1300px ja suurempi*/
+@media screen and (min-width: 1300px){
+.container-fluid {
+    width: 75%;
+    margin:auto;
+}
+body {
+    background-color: whitesmoke;
 }
 
-/* Sisällön kuville */
-.center {
-    width: 90%;
-    height: auto;
-    display: block;
-    margin: auto;
-    margin-top: 12px;
-   
-  }
-
-  
-
-  
+}
