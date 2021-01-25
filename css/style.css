@@ -1,4 +1,18 @@
+.logo {
 
+    width: 400px;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .logo {
+
+        width: 310px;
+        padding-top: 25px;
+    }
+}
 /*Kun ruudun leveys 1300px ja suurempi*/
 @media screen and (min-width: 1300px){
 .container-fluid {
@@ -9,4 +23,8 @@ body {
     background-color: whitesmoke;
 }
 
+.logo {
+    padding-top: 10px;
+    width: 470px;
+}
 }
