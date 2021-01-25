@@ -8,5 +8,12 @@
 body {
     background-color: whitesmoke;
 }
+.logo {
+    align-content: center;
+    margin:auto;
+    background-repeat: no-repeat;
+    background-size: contain ;
+    width: 1500px;
+}}
 
-}
+  
