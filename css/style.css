@@ -1,15 +1,10 @@
-.content {
-    min-height: 500px;
-    flex-grow: 2;
+h1 {
+    font-family: 'Brush Script MT', cursive;
+    margin-top: 0.5em;
 }
 
-/* Sisällön kuville */
-.center {
-    width: 90%;
-    height: auto;
-    display: block;
-    margin: auto;
-    margin-top: 12px;
+h3 {
+    font-family: 'Brush Script MT', cursive;
 }
 
 /* Some-linkit */
@@ -51,18 +46,36 @@
     padding: 6.2px;
 }
 
-/* contact.html alert box */
-.alertbox { 
-    margin-top: 40px; 
-    width: 63%; 
-    padding-top: 10px; 
-    margin-left: 13px;          
-    border: rgb(59, 59, 59) 3px solid; 
-    border-radius: 5px; 
-    background-color: white; 
-    position: static;
+.logo {
+
+    width: 400px;
+    padding: 20px;
 }
 
-  
 
-  
+@media screen and (max-width: 375px) {
+
+    .logo {
+
+        width: 310px;
+        padding-top: 25px;
+    }
+}
+
+/*Kun ruudun leveys 1300px ja suurempi*/
+@media screen and (min-width: 1300px){
+.container-fluid {
+    width: 75%;
+    margin:auto;
+}
+body {
+    background-color: whitesmoke;
+}
+
+.logo {
+    padding-top: 10px;
+    width: 470px;
+}
+
+
+}
