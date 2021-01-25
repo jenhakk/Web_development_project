@@ -1,4 +1,27 @@
+h1 {
+    font-family: 'Brush Script MT', cursive;
+    margin-top: 0.5em;
+}
+h3 {
+    font-family: 'Brush Script MT', cursive;
 
+}
+
+.logo {
+
+    width: 400px;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .logo {
+
+        width: 310px;
+        padding-top: 25px;
+    }
+}
 /*Kun ruudun leveys 1300px ja suurempi*/
 @media screen and (min-width: 1300px){
 .container-fluid {
@@ -8,19 +31,11 @@
 body {
     background-color: whitesmoke;
 }
+
 .logo {
-    align-content: center;
-    margin:auto;
-    background-repeat: no-repeat;
-    background-size: contain ;
-    width: 1500px;
+    padding-top: 10px;
+    width: 470px;
 }
 
-h1 {
-    font-family: 'Brush Script MT', cursive;
-    margin-top: 0.5em;
-}
-h3 {
-    font-family: 'Brush Script MT', cursive;;
-}
+
 }
