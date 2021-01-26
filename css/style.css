@@ -1,3 +1,5 @@
+
+
 h1 {
     font-family: 'Brush Script MT', cursive;
     margin-top: 0.5em;
@@ -7,6 +9,22 @@ h3 {
     font-family: 'Brush Script MT', cursive;
 }
 
+.logo {
+
+    width: 400px;
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+
+}
+
+li a {
+    font-weight: normal;
+}
 /* Some-linkit */
 .fab {
     margin-right: 12px;
@@ -46,20 +64,30 @@ h3 {
     padding: 6.2px;
 }
 
+
+
+
+@media screen and (max-width: 425px) {
+
+   /*  .smart-scroll{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+      }
+      .scrolled-down{
+         transform:translateY(-100%); transition: all 0.3s ease-in-out;
+      }
+      .scrolled-up{
+         transform:translateY(0); transition: all 0.3s ease-in-out;
+      } */
+
 .logo {
 
-    width: 400px;
-    padding: 20px;
+    width: 300px;
 }
-
-
-@media screen and (max-width: 375px) {
-
-    .logo {
-
-        width: 310px;
-        padding-top: 25px;
-    }
+   
 }
 
 /*Kun ruudun leveys 1300px ja suurempi*/
@@ -67,15 +95,12 @@ h3 {
 .container-fluid {
     width: 75%;
     margin:auto;
+    
 }
 body {
     background-color: whitesmoke;
 }
 
-.logo {
-    padding-top: 10px;
-    width: 470px;
-}
 
 
 }
