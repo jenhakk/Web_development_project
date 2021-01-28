@@ -31,6 +31,11 @@ iframe {
 li a {
     font-weight: normal;
 }
+
+li a:hover {
+
+    font-weight: 500;
+}
 /* Some-linkit */
 .fab {
     margin-right: 12px;
@@ -72,22 +77,10 @@ li a {
 
 
 
-
+/*Kun ruudun leveyd 425px ja pienempi*/
 @media screen and (max-width: 425px) {
 
-   /*  .smart-scroll{
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-      }
-      .scrolled-down{
-         transform:translateY(-100%); transition: all 0.3s ease-in-out;
-      }
-      .scrolled-up{
-         transform:translateY(0); transition: all 0.3s ease-in-out;
-      } */
+  
       .carousel-slide .carousel-item {
         height: 700px;
         width: 500px;
