@@ -14,7 +14,7 @@
 <body>
   <!--Container alkaa-->
     <div class="container-fluid">
-      <!--"header" alkaa-->
+      
         <!--"header alkaa"-->
       
       <div class="row" style="position:fixed; top: 0px; width: inherit">
@@ -57,16 +57,14 @@
   </div><!--header loppuu-->
 
             <!--1. rivi-->
-            <div class="row" style="min-height: 400px; margin-top: 175px;">
-              <div class="col-md-6 d-none d-md-block" style="background-image: url(images/kattaus_s.jpg); background-position: center; background-size:cover;">
+            <div class="row" style="max-height: 400px; margin-top: 175px;">
+              <div class="col-md-6 d-none d-md-block" style="height: 400px; background-image: url(images/kattaus_s.jpg); background-position: center; background-size:cover;">
               </div>
-              
-              <!--Testinä tämä sarake häviää kun ruudun koko pienenee-->
-              <div class="col-md-6" style="background-image: url(images/annos.jpg); background-position: center; background-size:cover !important;">
+              <div class="col-md-6 d-none d-md-block" style="height: 400px; background-image: url(images/annos.jpg); background-position: center; background-size:cover;">
               </div>
             </div>
             <!--Testirivi-->
-            <div class="row" style="min-height: 150px;">
+            <div class="row d-sm-block d-md-none" style="min-height: 200px; border-bottom: thin solid rgba(0, 0, 0, 0.603);">
             <div class="col" style="background-image: url(images/fingerfood.jpg); background-position: center; background-size:cover !important;"></div>
           </div>
             <!--2. rivi-->
@@ -100,7 +98,18 @@
 
             <div class="col-md-4 d-none d-md-block" style="background-image: url(images/valineet.jpg); background-position: center; background-size:cover;">
             </div> 
-            
+            <!--4. rivi-->
+          </div>
+          <div class="row" style="max-height: 400px; background-color: rgba(0, 0, 0, 0.897);">
+            <div class="col-md-3" style="background-image: url(images/bar_mv.jpg); background-position: center; background-size: cover; max-height: 400px;">
+            </div>
+            <div class="col-md-6">
+              <video poster="images/annos2.jpg"  height="auto" width="100%" autoplay loop muted>
+              <source src="images/restaurant_video.mp4">
+              Your browser does not support the video tag.</video>
+            </div>
+            <div class="col-md-3" style="background-image: url(images/bar2_mv.jpg); background-position: center; background-size: cover; max-height: 400px;">
+            </div>
           </div>
 
           <!--Karttaosa alkaa-->
@@ -156,7 +165,7 @@
     crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-    <script src="testing.js"></script>
+    
 
   </body>
 </html>
