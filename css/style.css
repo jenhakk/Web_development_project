@@ -1,14 +1,8 @@
 
-
 h1 {
     font-family: 'Brush Script MT', cursive;
-
-
     margin-top: 1em;
     text-align: center;
-  /*Lisätty paddingia jotta kirjoitus ei jää headerin alle, saa muuttaa mieleiseksi :) */
-    /*padding-top: 15px;*/
-
 }
 
 h3 {
@@ -29,20 +23,9 @@ a {
 
 }
 
-a:hover {
-    color:rgb(127, 166, 238);
-}
-
 li a {
-    font-weight:normal;
+    font-weight: normal;
 }
-
-li a:hover {
-
-    font-weight: 500;
-}
-
-
 /* Some-linkit */
 .fab {
     margin-right: 12px;
@@ -87,13 +70,27 @@ li a:hover {
 
 @media screen and (max-width: 425px) {
 
-
-
+   /*  .smart-scroll{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+      }
+      .scrolled-down{
+         transform:translateY(-100%); transition: all 0.3s ease-in-out;
+      }
+      .scrolled-up{
+         transform:translateY(0); transition: all 0.3s ease-in-out;
+      } */
+      .carousel-slide .carousel-item {
+        height: 700px;
+        width: 500px;
+    } 
 .logo {
 
     width: 300px;
 }
-   
 }
 
 /*Kun ruudun leveys 1300px ja suurempi*/
@@ -107,6 +104,23 @@ body {
     background-color: whitesmoke;
 }
 
-
-
+  
+  .flexgrowcontainer {
+    display: flex;
+    align-items: stretch;
+}
+.carousel-slide .carousel-item {
+    height: 1200px;
+    width: 900px;
+} 
+.text {
+    color: #000000;
+    font-size: 15px;
+    padding: 2px 2px;
+    position: middle;
+    bottom: 2px;
+    width: 100%;
+    text-align: center;
+  }
+  
 }
