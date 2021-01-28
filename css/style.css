@@ -1,0 +1,108 @@
+
+
+h1 {
+    font-family: 'Brush Script MT', cursive;
+    padding-top: 1em;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Brush Script MT', cursive;
+    padding-left: 1.25em;
+}
+
+.logo {
+
+    width: 400px;
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+
+}
+
+li a {
+    font-weight: normal;
+}
+/* Some-linkit */
+.fab {
+    margin-right: 12px;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fab:hover {
+    opacity: 0.5;
+    color: white;
+}
+  
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 26px;
+    padding: 7.3px;
+}
+  
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: 25px;
+    padding: 7.8px;
+}
+
+/* Instagram */
+.fa-instagram {
+    background: #b9187b;
+    color: white;
+    font-size: 30px;
+    padding: 6.2px;
+}
+
+
+
+
+@media screen and (max-width: 425px) {
+
+   /*  .smart-scroll{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+      }
+      .scrolled-down{
+         transform:translateY(-100%); transition: all 0.3s ease-in-out;
+      }
+      .scrolled-up{
+         transform:translateY(0); transition: all 0.3s ease-in-out;
+      } */
+
+.logo {
+
+    width: 300px;
+}
+   
+}
+
+/*Kun ruudun leveys 1300px ja suurempi*/
+@media screen and (min-width: 1300px){
+.container-fluid {
+    width: 75%;
+    margin:auto;
+    
+}
+body {
+    background-color: whitesmoke;
+}
+
+
+
+}
