@@ -42,12 +42,7 @@ li a:hover {
     font-weight: 500;
 }
 
-.col-md-6 video {
-    
-    
-    
-   
-}
+
 /* Some-linkit */
 .fab {
     margin-right: 12px;
@@ -91,10 +86,8 @@ li a:hover {
 
 
 @media screen and (max-width: 425px) {
-/*Lisätty paddingia jotta otsikko ei jää headerin alle, saa muuttaa mieleiseksi :) */
-h1 {
-    padding-top: 1px;
-}
+
+
 
 .logo {
 
