@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/3c1fe89ab3.js" crossorigin="anonymous"></script>
+
+    <title>Contact</title>
+</head>
+<body>
+  <!--Container alkaa-->
+    <div class="container-fluid">
+      <!--"header alkaa"-->
+
+     
+      <div class="row" style="position:fixed; top: 0px; width: inherit">
+
+          
+        <div class="col-12 text-center" style="background-color: white; min-height: 150px; display:inline; ">
+          
+          <a href="home.html"><img src="images/Ravontolanlogo5.jpeg" class="logo" ></a>
+          
+
+        </div>
+        <!--navbar alkaa-->
+          <div class="row" style="background-color:white; min-height: 15px; position: relative; bottom:0px; margin:0;">
+            <div class="col">
+              <nav class="navbar navbar-expand-md navbar-light">
+              <!-- <a href="#" class="navbar-brand">Testing</a> -->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
+                  <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="home.html" style="color:black">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html" style="color:black">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html" style="color:black">About us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="book.html" style="color:black">Book a table</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html" style="color:black">Contact</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div> <!--navbar loppuu-->
+      </div><!--"header loppuu"-->
+    
+            <!--Sisältö alkaa-->
+            <div class="row" style="min-height: 1000px; margin-top: 220px; background-color:  rgb(209, 205, 205);">
+              
+                <!--Tyhjä column marginiksi reunustoille-->
+                <div class="col-sm-2">
+                
+                </div>
+
+                <!--Yhteystiedot-->
+                <div class="col-sm-3" style = "margin-top: 50px; padding-right: 20px;">
+                  <h4>Call us</h4>
+                  <p>Restaurant:<br>
+                    +358 10 123 4567<br><br></p>
+                    <hr>
+
+                  <h4 style = "padding-top: 20px;">Email us</h4>
+                  <p>Restaurant:<br>
+                    info@bistre.fi<br></p>
+
+                  <p>Reservations:<br>
+                    reservations@bistre.fi<br><br></p>
+                    <hr>
+
+                  <p><br>You can make a table reservation by calling or emailing us.
+                    It is also possible to make on our online reservation system.<br><br>
+
+                    If you would like to reserve a table for more than 8 people,
+                    please call us to make the reservation.<br><br>
+                    
+                    You can also fill out the contact form for any inquiries
+                    and we will be in touch with you as soon as possible.<br><br></p>
+                    <hr>
+
+                  <h4 style = "padding-top: 20px;">Visit us</h4>
+                  <p>Bistré<br>
+                    Vankanlähde 9,<br>
+                    13100 Hämeenlinna<br><br></p>
+                </div>
+                
+                <!--Tyhjä column marginiksi reunustoille-->
+                <div class="col-sm-2">
+    
+                </div>
+
+                <!--Ota yhteyttä-form-->
+                <div class="col-sm-5" style = "padding-top: 40px; padding-bottom: 60px;">
+                  <form class = "row g-4">
+
+                    <!--First Name input-->
+                    <div class = "col-md-4">
+                        <label id = "inputFirstName" class = "form-label">First name</label>
+                        <input type = "text" class = "form-control" placeholder = "First Name" aria-label = "First name">
+                    </div>
+    
+                    <!--Last Name input-->
+                    <div class = "col-md-4">
+                        <label id = "inputLastName" class = "form-label">Last name</label>
+                        <input type = "text" class = "form-control" placeholder = "Last Name" aria-label = "Last name">
+                    </div>
+    
+                    <div class = "col-md-8">
+                        <label id = "inputNumber" class = "form-label">Phone number</label>
+                        <input type = "text" class = "form-control" placeholder = "E.g. +358 501234567" id = "inputNumber">
+                    </div>
+
+                    <!--Email Address input-->
+                    <div class = "col-md-8">
+                        <label for = "inputEmail4" class = "form-label">Email</label>
+                        <input type = "email" class = "form-control" placeholder = "E.g. firstname.lastname@email.com" id = "inputEmail4">
+                    </div>
+
+                    <!--Last Name input-->
+                    <div class = "col-md-8">
+                        <label id = "inputSubject" class = "form-label">Subject</label>
+                        <input type = "text" class = "form-control" placeholder = "Subject of your message" aria-label = "Subject">
+                    </div>
+    
+                    <!--Message box-->
+                    <div class = "col-md-8">
+                        <label for = "exampleFormControlTextarea1" class = "form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder = "Enter your message here" rows="3"></textarea>
+                        </div>
+
+                    <!--Send button-->
+                    <div class = "col-8" style = "margin-bottom: 10px;">
+                        <button type = "submit" class = "btn btn-primary active" aria-pressed="true" onclick="myFunction()" style = "background-color: rgba(59, 59, 59, 0.897); border-color: rgb(59, 59, 59);">Send</button>
+
+                        <!--Alert box, kun painaa nappia-->
+                        <script>
+                          function myFunction() {
+                            alert("Message sent succesfully!");
+                          }
+                        </script>
+                    </div>
+                  </form>
+                  
+                  <!--Alert box-->
+                  <div class = "col-sm-8" style = "margin-top: 30px; padding: 10px; border: rgb(59, 59, 59) 2.5px solid; 
+                  border-radius: 5px; background-color: white;">
+                      <p><b>These restaurant pages are a school project.</b><br>
+                        <hr>
+                        Thus, the restaurant and contact information connected to it are made-up.<br><br> 
+                        Address is pointed at Häme University of Applied Sciences HAMK.
+                      </p>
+                    </div>
+                </div>
+
+                <!--Tyhjä column marginiksi reunustoille-->
+                <div class="col-sm-2">
+                
+                </div>
+            </div> <!--Sisältö loppuu-->
+
+            <!--Karttaosa alkaa-->
+            <div class="row" style="min-height: 200px;">
+              <div class="col-md-12" style="background-color: rgb(255, 255, 255);">
+                <p>Tähän kartta</p>
+              </div>
+            </div> <!--Karttaosa loppuu-->
+
+            <!--Footer alkaa-->
+            <div class="row" style="min-height: 200px; background-color: rgb(0, 0, 0); color: white; padding-top: 40px;">
+        
+              <!--Vasen reuna: tyhjä column visualisaation vuoksi-->
+              <div class="col-sm-2">
+              </div>
+
+              <!--Contact info-->
+              <div class="col-sm-3">
+                <h5>CONTACT</h5>
+                <p>Bistré<br>
+                  Vankanlähde 9, 13101 Hämeenlinna<br>
+                  Tel. +358 10 123 4567<br>
+                  info@bistre.fi</p>
+              </div>
+
+              <!--Aukioloajat-->
+              <div class="col-sm-3">
+                <h5>OPEN</h5>
+                <p>Monday-Friday:  11:00 - 22:00<br>
+                  Saturday:  11:00 - 23:00<br>
+                  Sunday:  12:00 - 23:00</p>
+              </div>
+
+              <!--Linkkejä: Menu-->
+              <div class="col-sm-3">
+                <div class="row" style = "margin-bottom: 15px;">
+                  <h5>FOLLOW US ON</h5>
+                  &nbsp&nbsp&nbsp<a href="https://www.facebook.com/" class="fab fa-facebook"></a>
+                  <a href="https://twitter.com/?lang=fi" class="fab fa-twitter"></a>
+                  <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                </div>
+              </div>
+
+              <!--Oikea reuna: tyhjä column visualisaation vuoksi-->
+              <div class="col-sm-2">
+              </div>
+            </div> <!--Footer loppuu-->
+         
+    </div> <!-- container loppuu-->
+        
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</body>
+</html>

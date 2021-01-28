@@ -2,13 +2,18 @@
 
 h1 {
     font-family: 'Brush Script MT', cursive;
+
     padding-top: 1em;
     text-align: center;
+    margin-top: 0.5em;
+
 }
 
 h3 {
     font-family: 'Brush Script MT', cursive;
+
     padding-left: 1.25em;
+
 }
 
 .logo {
