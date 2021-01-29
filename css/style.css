@@ -85,20 +85,16 @@ z-index: -1;
     padding: 6.2px;
 }
 
-
-
 /*Kun ruudun leveyd 425px ja pienempi*/
 @media screen and (max-width: 425px) {
 
-  
-      .carousel-slide .carousel-item {
-        height: 700px;
-        width: 500px;
+    .carousel-slide .carousel-item {
+      height: 700px;
+      width: 500px;
     } 
-.logo {
-
-    width: 300px;
-}
+    .logo {
+        width: 300px;
+    }
 }
 
 /*Kun ruudun leveys 1300px ja suurempi*/
