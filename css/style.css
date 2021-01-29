@@ -3,6 +3,7 @@ h1 {
     font-family: 'Brush Script MT', cursive;
     margin-top: 1em;
     text-align: center;
+
 }
 
 h3 {
@@ -36,6 +37,15 @@ li a:hover {
 
     font-weight: 500;
 }
+
+
+video {
+    
+z-index: -1;   
+    
+   
+}
+
 /* Some-linkit */
 .fab {
     margin-right: 12px;
