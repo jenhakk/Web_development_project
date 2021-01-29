@@ -90,11 +90,14 @@ z-index: -1;
 @media screen and (max-width: 425px) {
 
     .carousel-slide .carousel-item {
-      height: 700px;
-      width: 500px;
+      height: 500px;
+      width: 300px;
     } 
     .logo {
         width: 300px;
+    }
+    .img {
+      max-width: 70%;
     }
 }
 
@@ -115,8 +118,8 @@ body {
     align-items: stretch;
 }
 .carousel-slide .carousel-item {
-    height: 1200px;
-    width: 900px;
+    height: 1000px;
+    width: 700px;
 } 
 .text {
     color: #000000;
@@ -127,5 +130,16 @@ body {
     width: 100%;
     text-align: center;
   }
-  
+  .img {
+    object-fit: cover;
+    max-width: 70%;
+  }
+  .img-container { position: relative; }
+
+.img-container .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
 }
