@@ -36,6 +36,7 @@ li a {
 li a:hover {
 
     font-weight: 500;
+    color:rgba(119, 160, 236, 0.952)
 }
 
 
@@ -85,20 +86,23 @@ z-index: -1;
     padding: 6.2px;
 }
 
-
-
 /*Kun ruudun leveyd 425px ja pienempi*/
 @media screen and (max-width: 425px) {
 
-  
-      .carousel-slide .carousel-item {
-        height: 700px;
-        width: 500px;
+    .carousel-slide .carousel-item {
+      height: 500px;
+      width: 300px;
     } 
+
 .logo {
 
     width: 260px;
 }
+
+
+    .img {
+      max-width: 70%;
+    }
 
 }
 
@@ -119,8 +123,8 @@ body {
     align-items: stretch;
 }
 .carousel-slide .carousel-item {
-    height: 1200px;
-    width: 900px;
+    height: 1000px;
+    width: 700px;
 } 
 .text {
     color: #000000;
@@ -131,5 +135,16 @@ body {
     width: 100%;
     text-align: center;
   }
-  
+  .img {
+    object-fit: cover;
+    max-width: 70%;
+  }
+  .img-container { position: relative; }
+
+.img-container .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
 }
