@@ -87,7 +87,7 @@ z-index: -1;
 }
 .img {
     object-fit: cover;
-    max-width: 70%;
+    max-width: 100%;
   }
   .img-container { position: relative; }
 
@@ -148,7 +148,7 @@ body {
     color: #000000;
     font-size: 15px;
     padding: 2px 2px;
-    position: middle;
+    position: center;
     bottom: 2px;
     width: 100%;
     text-align: center;
