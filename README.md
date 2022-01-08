@@ -21,7 +21,8 @@ Every student had their own page to work with. Mine was the front page (index.ht
 
 I wanted to try to make the page look like any modern website and I think I did a good job. I'm specially proud of the overall look and the video which I edited by myself from several free videos from pexels.com. 
 
-This project was the first of three where we used the same site as the base.
+This project was the first of three where we used the same site as the base. Second part you can find [here](https://github.com/jenhakk/PHP/tree/main/web_development_part2).
+Third part was to recreate the first site in Wordpress. That site isn't unfortunately available.
 
 **You can visit the page [here](https://jenhakk.github.io/webdevelopment_group3/index.html)**
 
