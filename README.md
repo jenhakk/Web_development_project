@@ -23,5 +23,7 @@ I wanted to try to make the page look like any modern website and I think I did 
 
 This project was the first of three where we used the same site as the base.
 
+**You can visit the page [here](https://jenhakk.github.io/webdevelopment_group3/index.html)**
+
 
 **Grade: 5/5**
