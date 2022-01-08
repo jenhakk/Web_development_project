@@ -14,6 +14,14 @@ These features were mandatory:
 
 - Performance optimizing
 
+- Use of GitHub in a collaboration project
 
 
+Every student had their own page to work with. Mine was the front page and with that I also created the base and menu for other pages so they would look equal. The map and footer were created by other student. The logo was also created by other student.
 
+I wanted to try to make the page look like any modern website and I think I did a good job. I'm specially proud of the responsiveness and the video which I edited by myself from several free videos from pexels.com. 
+
+This project was the first of three where we used the same site as the base.
+
+
+**Grade: 5/5**
