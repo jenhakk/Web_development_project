@@ -24,7 +24,7 @@ I wanted to try to make the page look like any modern website and I think I did 
 This project was the first of three where we used the same site as the base. Second part you can find [here](https://github.com/jenhakk/PHP/tree/main/web_development_part2).
 Third part was to recreate the first site in Wordpress. That site isn't unfortunately available.
 
-**You can visit the page [here](https://jenhakk.github.io/webdevelopment_group3/index.html)**
+**You can visit the page [here](https://jenhakk.github.io/Web_development_project/)**
 
 
 **Grade: 5/5**
