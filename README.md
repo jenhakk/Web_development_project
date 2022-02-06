@@ -1,4 +1,4 @@
-# webdevelopment_group3
+# Restaurant Bistré
 
 **School project for web development created with three other students**
 
